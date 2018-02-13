@@ -8,7 +8,7 @@
 
 int main()
 {
-	std::cout << "File2Text BASE64\n" << std::endl;
+	std::cout << "FileToBASE64\n" << std::endl;
 
 	const int size_buf = 1;
 
@@ -46,8 +46,7 @@ int main()
 		if(mode_ed == 3) // Exit LOOP
 			return 1;
 	}
-
-	std::cout << "End File2Text\n" << std::endl;
+	
 	system("PAUSE");
 	return 0;
 }
